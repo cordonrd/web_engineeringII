@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Hello World</title>
-	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
-</head>
-<body>
-	<nav class="navbar navbar-inverse navbar-static-top">
+<nav class="navbar navbar-inverse navbar-static-top">
 		<div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -15,21 +8,15 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 		      	</button>
-		      	<a class="navbar-brand" href="#">Hello World</a>
+		      	<a class="navbar-brand">Messenger</a>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 		      	<ul class="nav navbar-nav">
-		        	<li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+		        	<li <?php if ($uri == "/") {?> class="active" <?php } ?> ><a href="/">Home <span class="sr-only">(current)</span></a></li>
+		        	<li <?php if ($uri == "/coming-soon/") {?> class="active" <?php } ?> ><a href="/coming-soon">Coming soon! <span class="sr-only">(current)</span></a></li>
 		    	</ul>
 		    </div>
 		</div>
 	</nav>
-	<div class="container">
-		<h1>Hello World</h1>
-		<h2>And so it begins...</h2>
-	</div>
-
-</body>
-</html>
