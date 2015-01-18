@@ -1,0 +1,20 @@
+.navbar-brand{
+	margin-top: -5px;
+}
+.profile{
+	max-height: 200px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.profile:hover { -moz-box-shadow: 0 0 10px #000; -webkit-box-shadow: 0 0 10px #000; box-shadow: 0 0 10px #000; }
+.main{
+	max-width: 60%;
+	background-color: #fff;
+	min-height: 400px;
+}
+.maintext{
+	padding: 20px;
+}
+body {
+	background-color: #0D2D5A
+}
