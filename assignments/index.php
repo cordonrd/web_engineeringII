@@ -8,7 +8,10 @@ $uri = $_SERVER['REQUEST_URI'];
 <body>
 	<?php include '../header.php';  ?>
 	<div class="container main img-rounded">
-		<h1>Coming Soon...</h1>
+		<h1>Assignments</h1>
+		<ul>
+			<li><a href="/survey.php">Survey</a></li>
+		</ul>
 	</div>
 
 </body>
